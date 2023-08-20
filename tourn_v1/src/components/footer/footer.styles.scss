@@ -1,0 +1,32 @@
+.footer_container {
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: black;
+    padding: 20px;
+
+    ul {
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    li {
+        list-style: none;
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    div {
+        margin: 20px;
+    }
+
+    .socials {
+        margin: auto 30px 0 auto;
+    }
+    
+}

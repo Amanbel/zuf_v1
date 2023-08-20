@@ -1,0 +1,39 @@
+.home_container {
+    /* width */
+    .definitions {
+        width: 1380px;
+        margin: 120px auto 0 auto;
+        color: white;
+        text-align: start;
+
+        .comp_game,
+        .prize {
+            margin: 35px 0 25px 0;
+        }
+
+        p {
+            font-size: 18px;
+            letter-spacing: 0.3px;
+        }
+    }
+        ::-webkit-scrollbar {
+            width: 2px;
+            height:7px;
+        }
+    
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: inherit;
+        }
+    
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #B8EBE7;
+            border-radius: 15px;
+        }
+    
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #0F1A20;
+        }
+}
